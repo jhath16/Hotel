@@ -1,0 +1,51 @@
+body, html {
+  font-family:Georgia;
+  padding:20px;
+  background:green;
+}
+
+h1 {
+  text-align:center;
+  color:white;
+  text-decoration:underline;
+}
+
+button.button {
+  font-size:30px;
+  margin:0 auto;
+}
+
+.hidden {
+  height:0;
+}
+
+input {
+  width:300px;
+}
+
+table {
+  width:100%;
+  border:1px solid black;
+}
+
+th {
+  background:black;
+  color:lightskyblue;
+}
+
+tr:nth-child(odd) {
+  background:lightgrey;
+}
+
+tr {
+  padding:20px 0;
+  background:white;
+}
+
+td {
+  width:20%;
+}
+
+.appended td {
+  padding: 10px 0;
+}
